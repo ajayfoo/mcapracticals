@@ -43,3 +43,9 @@ print numbers from 1 to 4 on SSD
 To interface LED with Arduino and write a program to send sensor data to the cloud using ThingSpeak/ AWS and receive notification.
 #### [Pactical No.17](https://www.tinkercad.com/things/jzIzgFdH9RI-practical-17):-
 &emsp;To interface Temperature sensor with Arduino and write a program to send sensor data to the cloud using ThingSpeak/ AWS and receive notification.
+#### [Miscellaneous Practical No.1](https://www.tinkercad.com/things/260XnFw4FB6):-
+&emsp;Traffic Lights 4 ways.
+#### [Miscellaneous Practical No.2](https://www.tinkercad.com/things/81inKRX7WwY):-
+&emsp;Smart Street Light.
+#### [Miscellaneous Practical No.3](https://www.tinkercad.com/things/ayuRSWUZy18):-
+&emsp;IOT with cloud: interfacing IOT device(Gas Sensor) with cloud.
