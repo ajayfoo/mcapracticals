@@ -8,7 +8,7 @@ Note: WIP
 
 ## Semester 2
 ## Semester 2 Table of Contents
-1. [AWTL](#)
+1. [Advanced Web Technologies](#awtladvanced-web-technologies)
 2. [Internet Of Things](#internet-of-things)
 ### AWTL(Advanced Web Technologies)
 #### [Practical No.1](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/1Practical):
