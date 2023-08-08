@@ -7,6 +7,57 @@ Note: WIP
 ## Semester 1
 
 ## Semester 2
+## Semester 2 Table of Contents
+1. [AWTL](#)
+2. [Internet Of Things](#internet-of-things)
+### AWTL(Advanced Web Technologies)
+#### [Practical No.1](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/1Practical):
+Design UI based applications using basic Windows forms Controls
+1. WAP in C# that ask the user to enter a month, a day and a two digit year. The
+program should then determine whether the month times a day is equal to the year.
+If so, it should display the message saying the date is magic. Otherwise not a magic
+2. WAP to perform Money Conversion.
+3. WAP To convert temperature from Fahrenheit to Celsius or vice versa
+4. Create a Window application to calculate age of a person by providing input as birth
+date and current date .Current date and Birth date must be in long string format and
+display the age in terms of years.
+#### [Practical No.2](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/2Practical):
+Design Applications using Classes and Objects.
+1. Write a program to declare a class “staff” having data members as name and post.
+Accept this data 5 staffs and display names of staff who are HOD.
+2. Define a class “salary” which will contain member variable Basic, TA, DA, HRA. Write
+a program using Constructor with default values for DA and HRA and calculate the
+salary of the employee.
+#### [Practical No.3](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/3Practical):
+Design Applications using Inheritance and Abstract Classes.
+1. Write a program to implement multilevel inheritance from following figure. Accept and
+display data for one student.
+2. Program to calculate to find the area of various shapes: Rectangle, Circle, Ellipse,
+Square and Triangle using abstract class and abstract method.
+#### [Practical No.4](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/4Practical):
+1. Design an online registration form using HTML Controls and validation controls
+2. Build a simple angular web application.
+#### [Practical No.5](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/5Practical):
+Design a webpage to demonstrate connection to database through ADO.Net
+#### [Practical No.6](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/6Practical):
+Designing webpage to demonstrate use of data bound
+controls, working of simple stored procedure and parameterized
+stored procedure.
+1. Create a webpage that demonstrates the use of data bound controls of ASP.NET.
+2. Design a webpage to demonstrate the working of a simple stored procedure.
+3. Design a webpage to demonstrate the working of parameterized stored procedure.
+#### [Practical No.7](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/7Practical):
+Design a webpage to display the use of LINQ
+#### [Practical No.8](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/8Practical):
+State Management
+#### [Practical No.9](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/9Practical):
+1. Design Web Application to produce and consume a web Service. Write an
+Application that uses these services.
+2. Design Web Application to produce and consume a web Service.
+#### [Practical No.10](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/10Practical):
+Design MVC based Web applications
+1. Create a MVC application to demonstrate the use of Httpget and Httppost.
+2. Create a MVC application to Edit,Create, Delete and to display the data from the database using ADO.net Entity Model.
 ### Internet Of Things
 #### [Pactical No.1](https://www.tinkercad.com/things/2qxyQHsqtsz-practical-1):-
 &emsp;Program to blink Arduino onboard LED and To interface external LED with Arduino and write a program to turn ON LED for 1 sec after every 2 seconds.
