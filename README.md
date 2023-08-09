@@ -10,6 +10,7 @@ Note: WIP
 ## Semester 2 Table of Contents
 1. [Advanced Web Technologies](#awtladvanced-web-technologies)
 2. [Internet Of Things](#internet-of-things)
+3. [Networking With Linux](#networking-with-linux)
 ### AWTL(Advanced Web Technologies)
 #### [Practical No.1](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AWTL/1Practical):
 Design UI based applications using basic Windows forms Controls
@@ -100,3 +101,25 @@ To interface LED with Arduino and write a program to send sensor data to the clo
 &emsp;Smart Street Light.
 #### [Miscellaneous Practical No.3](https://www.tinkercad.com/things/ayuRSWUZy18):-
 &emsp;IOT with cloud: interfacing IOT device(Gas Sensor) with cloud.
+
+### Networking With Linux
+#### [Practical No.1](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/1Practical):-
+&emsp;Installation of NS-3 in Linux, NetAnim, WireShark
+#### [Practical No.2](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/2Practical):-
+&emsp;Write a Program to simulate traffic between two nodes(point to point).
+#### [Practical No.3](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/3Practical):-
+&emsp;Write a program to simulate star topology
+#### [Practical No.4](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/4Practical):-
+&emsp;Write a program to simulate bus topology
+#### [Practical No.5](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/5Practical):-
+&emsp;Program to simulate hybrid topology(Wireless Network Topology)
+#### [Practical No.6](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/6Practical):-
+&emsp;Program to simulate UDP server client.
+#### [Practical No.7](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/7Practical):-
+&emsp;Program to simulate DHCP server and n clients
+#### [Practical No.8](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/8Practical):-
+&emsp;Simulate a simple network in Network Simulator
+#### [Practical No.9](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/9Practical):-
+&emsp;Program to simulate FTP using TCP protocol
+#### [Practical No.10](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/NWL/10Practical):-
+&emsp;Analyze the network traffic and performance parameters of network using WireShark
