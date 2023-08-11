@@ -126,8 +126,9 @@ Program to simulate FTP using TCP protocol
 Analyze the network traffic and performance parameters of network using WireShark
 
 ### Artificial Intelligence
-#### Practical No.1
-Implementation of Logic programming using LISP /PROLOG-DFS for water jug problem / BFS for tic-tac-toe problem/ Hill-climbing to solve 8- Puzzle Problem.
+#### [Practical No.1](https://github.com/ajayfoo/mcapracticals/tree/master/2SEM/AIML/1Practical)
+Implementation of Logic programming using LISP /PROLOG-DFS for water jug problem / BFS for tic-tac-toe problem/ Hill-climbing to solve 8- Puzzle Problem.  
+Note: Only Water Jug Problem source code is present.
 #### Practical No.2
 Introduction to Python Programming: Learn the different libraries - NumPy, Pandas, SciPy, Matplotlib, Scikit Learn.
 #### [Practical No.3](https://github.com/ajayfoo/mcapracticals/blob/master/2SEM/AIML/3Practical.ipynb)
