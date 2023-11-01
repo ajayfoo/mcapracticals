@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical No. 4</title>
+</head>
+
+<body>
+    <p>
+        Command Button was last clicked on : <span id="last_clicked"></span>
+    </p>
+    <button onclick="updateTime()">Command Button</button><br />
+    <p>Select you favourite language:</p>
+    <input onchange="setFavLang()" type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input onchange="setFavLang()" type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input onchange="setFavLang()" type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br />
+    <input onchange="setFavLang()" type="radio" id="java" name="fav_language" value="Java">Java</input>
+    <p>
+        Favourite Language = <span id="my_favlang"></span>
+    </p>
+    <label>Enter Name: <input type="text" id="my_name_input"></label>
+    <p>Name = <span id="my_name"></span></p>
+    <input type="submit" onclick="setName()">
+    <script>
+        const last = document.getElementById("last_clicked");
+        function updateTime() {
+            last.textContent = Date().toString();
+        }
+        const favLang = document.getElementById("my_favlang");
+        function setFavLang() {
+            favLang.textContent = document.querySelector('input[name="fav_language"]:checked').value;
+        }
+        const nameInput = document.getElementById("my_name_input");
+        const nameTxt = document.getElementById("my_name");
+        function setName() {
+            nameTxt.textContent = nameInput.value;
+        }
+    </script>
+</body>
+
+</html>

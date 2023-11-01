@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STQA Practical No. 4</title>
+</head>
+<body>
+
+    <label for="myDropdown">Select your country:</label>
+    <select onchange= 'setCountry()' id="myDropdown">
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="uk">United Kingdom</option>
+        <option value="australia">Australia</option>
+        <option value="germany">Germany</option>
+        <option value="india">India</option>
+    </select>
+    <p>
+        My Country = <span id="myCountry"></span>
+    </p>
+    <script>
+        let myDropdown=document.getElementById("myDropdown")
+        let myCountry=document.getElementById("myCountry")
+        function setCountry(){
+            myCountry.textContent = myDropdown.options[myDropdown.selectedIndex].text;
+        }
+    </script>
+</body>
+</html>

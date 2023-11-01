@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STQA Practical No. 4</title>
+</head>
+<body>
+    <p>
+        Name = <span id="myname"></span></br>
+        Confirmation = <span id="myconfirmation"></span></br>
+    </p>
+    <script>
+        alert("This is an Alert box!")
+        let myNameTxt=document.getElementById("myname")
+        let confirmation = document.getElementById("myconfirmation")
+        function setName(){
+            myNameTxt.textContent=prompt("This a Prompt(Enter you name) box")
+        }
+        function setConfirmation(){
+            confirmation.textContent=confirm("Select your confirmation");
+        }
+    </script>
+    <button id="set_name_button" onclick="setName()">Set Name</button>
+    <button id="set_confirmation_button" onclick="setConfirmation()">Set Confirmation</button>
+</body>
+</html>
