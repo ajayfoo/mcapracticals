@@ -4,6 +4,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.Scanner;
+import java.util.function.Function;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -94,10 +95,15 @@ public class Demo {
 
 	private void runExplicitSyncDemo() {
 		webDriver.get("https://www.selenium.dev/selenium/web/dynamic.html");
-		WebElement revealed = webDriver.findElement(By.id("revealed"));
+		final WebElement revealed = webDriver.findElement(By.id("revealed"));
 		Wait<WebDriver> wait = new WebDriverWait(webDriver, Duration.ofSeconds(2));
 		webDriver.findElement(By.id("reveal")).click();
-		wait.until(d -> revealed.isDisplayed());
+		wait.until(new Function<WebDriver, Object>() {
+			@Override
+			public Object apply(WebDriver d) {
+				return revealed.isDisplayed();
+			}
+		});
 		revealed.sendKeys("Displayed");
 		System.out.println("[ExplicitSync]Value of property 'value' = " + revealed.getDomProperty("value"));
 
@@ -105,14 +111,17 @@ public class Demo {
 
 	private void runExplicitSyncWithOptionsDemo() {
 		webDriver.get("https://www.selenium.dev/selenium/web/dynamic.html");
-		WebElement revealed = webDriver.findElement(By.id("revealed"));
+		final WebElement revealed = webDriver.findElement(By.id("revealed"));
 		Wait<WebDriver> wait = new FluentWait<>(webDriver).withTimeout(Duration.ofSeconds(2))
 				.pollingEvery(Duration.ofMillis(300)).ignoring(ElementNotInteractableException.class);
 
 		webDriver.findElement(By.id("reveal")).click();
-		wait.until(d -> {
-			revealed.sendKeys("Displayed");
-			return true;
+		wait.until(new Function<WebDriver, Object>() {
+			@Override
+			public Object apply(WebDriver d) {
+				revealed.sendKeys("Displayed");
+				return true;
+			}
 		});
 		System.out.println("[ExplicitSyncWithOptions]Value of property 'value' = " + revealed.getDomProperty("value"));
 	}
