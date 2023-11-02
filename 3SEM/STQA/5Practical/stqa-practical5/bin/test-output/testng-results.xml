@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T09:35:51 IST" name="Default suite" finished-at="2023-11-02T09:35:55 IST" duration-ms="4208">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T09:35:51 IST" name="Default test" finished-at="2023-11-02T09:35:55 IST" duration-ms="4208">
+      <class name="vesit.ajayk57.dscc.stqa_practical5.NewTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:51 IST" name="beforeMethod" finished-at="2023-11-02T09:35:51 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="eightComponents()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:51 IST" name="eightComponents" finished-at="2023-11-02T09:35:55 IST" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eightComponents -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:55 IST" name="afterMethod" finished-at="2023-11-02T09:35:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:55 IST" name="beforeMethod" finished-at="2023-11-02T09:35:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:55 IST" name="f" finished-at="2023-11-02T09:35:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.NewTest@3e11f9e9]" started-at="2023-11-02T09:35:55 IST" name="afterMethod" finished-at="2023-11-02T09:35:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- vesit.ajayk57.dscc.stqa_practical5.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
