@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vesit.ajayk57.dscc.stqa_practical5.LoginTest">
+      <class name="vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest">
         <methods>
-          <include name="simpleLogin"/>
-          <include name="setupTest"/>
-          <include name="ProgramTermination"/>
+          <include name="setup"/>
+          <include name="testLoginWithValidCredentials"/>
         </methods>
-      </class> <!-- vesit.ajayk57.dscc.stqa_practical5.LoginTest -->
+      </class> <!-- vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
