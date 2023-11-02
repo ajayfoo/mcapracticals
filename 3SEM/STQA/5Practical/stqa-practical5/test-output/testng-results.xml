@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-02T19:34:06 IST" name="Default suite" finished-at="2023-11-02T19:34:14 IST" duration-ms="8304">
+  <suite started-at="2023-11-02T19:36:59 IST" name="Default suite" finished-at="2023-11-02T19:37:06 IST" duration-ms="6370">
     <groups>
     </groups>
-    <test started-at="2023-11-02T19:34:06 IST" name="Default test" finished-at="2023-11-02T19:34:14 IST" duration-ms="8304">
+    <test started-at="2023-11-02T19:36:59 IST" name="Default test" finished-at="2023-11-02T19:37:06 IST" duration-ms="6370">
       <class name="vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:34:06 IST" name="setup" finished-at="2023-11-02T19:34:13 IST" duration-ms="6594" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:36:59 IST" name="setup" finished-at="2023-11-02T19:37:04 IST" duration-ms="4583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:34:13 IST" name="testLoginWithValidCredentials" finished-at="2023-11-02T19:34:13 IST" duration-ms="844" status="PASS">
+        <test-method signature="testLoginWithValidCredentials()[pri:1, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:37:04 IST" name="testLoginWithValidCredentials" finished-at="2023-11-02T19:37:05 IST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method signature="testLoginWithInvalidCredentials()[pri:2, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:34:13 IST" name="testLoginWithInvalidCredentials" finished-at="2023-11-02T19:34:14 IST" duration-ms="564" status="PASS">
+        <test-method signature="testLoginWithInvalidCredentials()[pri:2, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:37:05 IST" name="testLoginWithInvalidCredentials" finished-at="2023-11-02T19:37:06 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:34:14 IST" name="teardown" finished-at="2023-11-02T19:34:14 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:vesit.ajayk57.dscc.stqa_practical5.regression.LoginTest@2f9f7dcf]" started-at="2023-11-02T19:37:06 IST" name="teardown" finished-at="2023-11-02T19:37:06 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
