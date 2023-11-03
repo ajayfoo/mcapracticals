@@ -1,0 +1,22 @@
+# create project folder and open it in vscode
+npm install -g truffle
+# install and run ganache(Quickstart workspace)
+truffle unbox metacoin
+# change port number in truffle-config.js to the one in ganache
+# add truffle project in ganache
+truffle test
+truffle migrate
+truffle console
+# Replicate the following
+truffle(development)> let instance = await MetaCoin.deployed()
+truffle(development)> let accounts = await web3.eth.getAccounts()
+truffle(development)> let balance = await instance.getBalance(accounts[0])
+truffle(development)> balance.toNumber()
+truffle(development)> let ether = await instance.getBalanceInEth(accounts[0])
+truffle(development)> ether.toNumber()
+truffle(development)> instance.sendCoin(accounts[1], 500)
+truffle(development)> let received = await instance.getBalance(accounts[1])
+truffle(development)> received.toNumber()
+truffle(development)> let newBalance = await instance.getBalance(accounts[0])
+truffle(development)> newBalance.toNumber()
+# check ganache for contract, events and transactions
