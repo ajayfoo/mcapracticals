@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PracticalA</string>
+    <string name="review">Review</string>
+    <string name="movie_name">Movie name</string>
+    <string name="inspiring">Inspiring</string>
+    <string name="informative">Informative</string>
+    <string name="entertaining">Entertaining</string>
+    <string name="rewatchable">Rewatchable?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="create">Create</string>
+    <string name="create_movie_review">Create Movie Review</string>
+    <string name="movie_review">Movie Review</string>
+    <string name="back">Back</string>
+    <string name="isRewatchable">Is %1$srewatchable</string>
+</resources>

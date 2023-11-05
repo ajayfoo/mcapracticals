@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical1B</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="wrong_password">Wrong password</string>
+    <string name="failed_attempt_msg">You\'ve entered incorrect password, %1$d attempts left.</string>
+    <string name="welcome_msg">Welcome %1$s!</string>
+    <string name="back">Back</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practical8</string>
+    <string name="practical_num_8">Practical No. 8</string>
+    <string name="problemA">A: Record an audio and play</string>
+    <string name="problemB">B: Play a video in VideoView</string>
+    <string name="problemC"><![CDATA[C: Display the current location of your device (Latitude &amp; Longitude)]]></string>
+    <string name="stop_recording">Stop recording</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_playing">Stop playing</string>
+    <string name="start_playing">Start playing</string>
+    <string name="get_location">Get Location</string>
+    <string name="continuous_location">Continuous Location</string>
+    <string name="one_time_location">One time location</string>
+    <string name="back">Back</string>
+</resources>

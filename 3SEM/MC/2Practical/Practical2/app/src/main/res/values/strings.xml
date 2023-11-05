@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email ID</string>
+    <string name="practical_no_2">Practical No. 2</string>
+    <string name="ruhn">Run…</string>
+    <string name="run">Run…</string>
+    <string name="a_reg">A: Registration From</string>
+    <string name="b_cal">B: Calculator</string>
+    <string name="c_unit_conv">C: Unit Convertor</string>
+    <string name="go_home">Go Home</string>
+    <string name="a_summary">You have successfully registered, %1$s(%2$s)!</string>
+    <string name="back">Back</string>
+    <string name="num_1">Number 1</string>
+    <string name="num_2">Number 2</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="apostrophe">*</string>
+    <string name="forward_slash">/</string>
+    <string name="answer">Answer = %1$f</string>
+    <string name="distance1">Distance1…</string>
+    <string name="distance2">Distance2…</string>
+    <string name="result">Result: %1$f</string>
+    <string name="convert">Convert</string>
+    <string-array name="distance_units">
+        <item>mm</item>
+        <item>cm</item>
+        <item>m</item>
+        <item>km</item>
+    </string-array>
+</resources>

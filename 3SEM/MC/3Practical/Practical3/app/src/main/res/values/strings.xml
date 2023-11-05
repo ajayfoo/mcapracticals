@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical 3</string>
+    <string name="website_url">Website URL</string>
+    <string name="go_to_webiste">Go To Website</string>
+    <string name="location">Location</string>
+    <string name="open_map">Open Map</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="share_using">Share Using</string>
+    <string name="share_subject">Share a nice message</string>
+</resources>
