@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practical6</string>
+    <string name="blink">Blink</string>
+    <string name="fade">Fade</string>
+    <string name="move">Move</string>
+    <string name="clockwise">Clockwise</string>
+    <string name="slide">Slide</string>
+    <string name="stop_animation">Stop Animation</string>
+    <string name="zoom">Zoom</string>
+    <string name="rotate">Rotate</string>
+    <string name="expand">Expand</string>
+    <string name="brighten">Brighten</string>
+    <string name="darken">Darken</string>
+    <string name="grayscale">Grayscale</string>
+    <string name="reset">Reset</string>
+</resources>
